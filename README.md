@@ -84,7 +84,7 @@ hub.disconnect()
 ```python
 hub.motor_this_way(hub.port("B"))      # direction right
 hub.motor_that_way(hub.port("B"))      # direction left
-hub.set_motor_power(hub.port("B"), 80) # power 0�100
+hub.set_motor_power(hub.port("B"), 80) # power 0-100
 hub.motor_on(hub.port("B"))
 hub.motor_off(hub.port("B"))
 ```
@@ -170,4 +170,4 @@ BLE Python library for LEGO WeDo 2.0, optimized for Raspberry Pi 5.
 
 ## Project Links
 
-- ?? [PyPI Project](https://pypi.org/project/wedo2py-rpi5/)
+- [PyPI Project](https://pypi.org/project/wedo2py-rpi5/)
